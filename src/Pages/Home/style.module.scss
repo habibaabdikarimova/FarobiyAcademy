@@ -1,0 +1,44 @@
+.showNavbar{
+    margin: 5% 0;
+    background: #EAF4FF;
+    // padding: 3%;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    .textBox{
+        padding: 5% 4%;
+        .showtitle{
+            font-size: 38px;
+            line-height: 42px;
+            margin: 6% 0;
+            span{
+                color: #2189FF;
+            }
+        }
+
+        .subtitle{
+            font-size: 20px;
+            color: #0B2441;
+            opacity: 50%;
+        }
+
+        .shownavbartext{
+            color: #333333;
+            margin: 5% 0 20%;
+            font-size: 18px;
+            line-height: 26px;
+           
+        }
+    }
+    // .shownavbarimg{
+
+    // }
+}
+@media(max-width:900px){
+   .showNavbar{
+    .shownavbarimg{
+        // background-color: #ff21d6;
+        display: none;
+    }
+   }
+}

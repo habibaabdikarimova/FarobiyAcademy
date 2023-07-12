@@ -1,0 +1,35 @@
+.teachers{
+    margin: 5% 0 18%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 5%;
+    .field{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        img{
+            width: 28px;
+            height: 28px;
+        }
+    }
+}
+
+@media(max-width:1024px){
+    .teachers{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:768px){
+    .teachers{
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 30%;
+    }
+}
+@media(max-width:400px){
+    .teachers{
+        grid-template-columns: 1fr;
+        margin-bottom: 80%;
+    }
+}
